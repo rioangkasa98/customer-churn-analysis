@@ -39,9 +39,27 @@ The analysis includes:
 - Customers with low purchase frequency tend to churn more often
 - A high-risk customer segment was identified with a churn rate above 40%
 - Highly engaged customers show much lower churn rates
+  
+<img width="558" height="393" alt="churn_distribution" src="https://github.com/user-attachments/assets/a060321c-39ed-4822-ae14-29bb3fc0c9d0" />
 
 ## Business Recommendations
 - Focus retention efforts on high-risk customer segments
 - Increase engagement for low-activity customers through targeted campaigns
 - Encourage repeat purchases with personalized promotions
 - Monitor engagement metrics as early indicators of churn
+
+## Customer Segmentation
+Customers were segmented using K-Means clustering based on:
+- Total purchases
+- Average session duration
+The segmentation reveals distinct customer groups, ranging from highly engaged and high-value customers to low-engagement customers with minimal activity.
+
+## Customer Segmentation Based on Purchases and Session Duration
+
+<img width="842" height="547" alt="customer_segmentation" src="https://github.com/user-attachments/assets/fbbfd277-f748-4925-a1cd-f080ea3bae16" />
+
+## Churn Rate by Segment
+
+<img width="590" height="390" alt="churn_rate_by_cluster" src="https://github.com/user-attachments/assets/c5ced363-cf5d-4842-983d-55478ff1dce1" />
+
+As shown in the following bar chart, churn rates vary significantly across customer segments. Segment 2, in particular, has a churn rate of approximately 41%, which is the highest among the segments.
